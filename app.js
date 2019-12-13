@@ -62,7 +62,7 @@ client.on('guildMemberAdd', member => {
 });
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NjQ4MTkwMjI1NzU5MjA3NDU0.XenSuw.VQAujd8Nk055ANVC9z3cymLxvtg');
+client.login('NjQ4MTkwMjI1NzU5MjA3NDU0.XfPRLg.zxU0iV1t6gcFNjm9f1ANsSfWiVo');
 
 client.on("guildMemberAdd", function(member) {
   let role = member.guild.roles.find("name", "BABYS");
